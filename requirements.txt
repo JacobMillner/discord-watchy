@@ -1,0 +1,2 @@
+plexapi==4.1.0
+websocket-client==0.48.0

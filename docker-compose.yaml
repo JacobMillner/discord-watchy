@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  discord-watchy:
+    container_name: discord-watchy
+    restart: always
+    build: ./discord-watchy
+    env_file:
+      - .env
